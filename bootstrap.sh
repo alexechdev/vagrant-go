@@ -35,7 +35,7 @@ sudo tar -C /usr/local -xzf go1.4.1.linux-amd64.tar.gz
 
 echo "Installing & Configuring Go..."
 sudo echo "export GOPATH=/var/www" >> /home/vagrant/.profile
-sudo echo "export PATH=$PATH:/home/vagrant/go/bin:/usr/local/go/bin" >> /home/vagrant/.profile
+sudo echo "export PATH=$PATH:/var/www/bin:/home/vagrant/go/bin:/usr/local/go/bin" >> /home/vagrant/.profile
 
 source /home/vagrant/.profile
 
